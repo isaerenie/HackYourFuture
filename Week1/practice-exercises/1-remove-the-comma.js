@@ -6,9 +6,11 @@
  */
 
 let myString = 'hello,this,is,a,difficult,to,read,sentence';
-
-
-
+myString = myString.replaceAll(',', ' ');
+console.log(myString);
+myString=myString.replace(/,/g, ' ');
+console.log(myString);
+myString=myString.split(',').join(' ');
 /* --- Code that will test your solution, do NOT change. Write above this line --- */
-
+console.log(myString);
 console.assert(myString === 'hello this is a difficult to read sentence', 'There is something wrong with your solution');

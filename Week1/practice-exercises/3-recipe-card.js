@@ -11,4 +11,14 @@
  *   Serves: 2
  *   Ingredients: 4 eggs, 2 strips of bacon, 1 tsp salt/pepper
  */
+const pastaRecipe = {
+  title:'Pasta',
+  servising:4,
+  ingredients : ['pasta','tomato sauce','cheese','salt']
+}
+for (let key in pastaRecipe){
+  console.log(key+': '+pastaRecipe[key]);
+}
 
+/* Object.keys(pastaRecipe).forEach(key=>console.log(key+':'+pastaRecipe[key]));
+ */

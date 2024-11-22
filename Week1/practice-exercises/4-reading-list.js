@@ -1,6 +1,6 @@
 /**
  * Keep track of which books you read and which books you want to read!
- *  
+ *
  * Follow the steps:
  *  Declare a variable that holds an array of 3 objects, where each object describes a book and has properties for the title (string), author (string), and alreadyRead (boolean indicating if you read it yet).
  *  Loop through the array of books.
@@ -9,3 +9,28 @@
  *  If you haven't read it log a string like You still need to read "The Lord of the Rings"
  */
 
+const books = [
+  {
+    title: "Crime and Punishment",
+    author: "Fyodor Dostoevsky",
+    alreadyRead: true,
+  },
+  {
+    title: "The Chronicles of Narnia",
+    author: "C.S. Lewis",
+    alreadyRead: false,
+  },
+  {
+    title: "Harry Potter and the Sorcerer's Stone",
+    author: "J.K. Rowling",
+    alreadyRead: true,
+  },
+];
+
+for (let book of books) {
+  console.log(book.title + " by " + book.author);
+
+  book.alreadyRead
+    ? console.log("You are already read " + book.title)
+    : console.log("you still need to read " + book.title);
+}
