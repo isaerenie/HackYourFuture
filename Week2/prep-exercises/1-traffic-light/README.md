@@ -1,6 +1,6 @@
 # Prep exercise - Traffic light
 
-In the previous week we started with our traffic light. Now that we also know what a function is we have one last look at the workings of a traffic light in a different way. Take a look at the `traffic-light.js` file and implement the same requirements as last week again, but then with another different way of organising.
+In the previous week we started with our traffic light. Now that we also know what a function is we have one last look at the workings of a traffic light in a different way. Take a look at the `traffic-light.js` file and implement the same requirements as last week again, but then with another different way of organizing.
 
 ## Things to think about
 
